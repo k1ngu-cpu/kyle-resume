@@ -33,7 +33,7 @@ p {
   position: relative;
   width: 100%;
   max-width: 1000px;
-  min-height: 1300px;
+  min-height: 1200px;
   margin: 50px;
   background-color: #fff;
   display: grid;
@@ -125,13 +125,6 @@ span {
   padding-bottom: 20px;
 }
 
-.right-side {
-  position: relative;
-  background-color: #fff;
-  padding: 40px;
-  margin-left: 25px;
-}
-
 .expert-info .title {
   color: #fff;
   font-size: 25px;
@@ -143,9 +136,70 @@ span {
 }
 
 .expert-info ul {
-    padding-left: 15px;
+  padding-left: 15px;
 }
 
 .expert-info li {
-    list-style: disc;
+  list-style: disc;
+}
+
+.expert-info {
+  padding-bottom: 25px;
+}
+
+.core-info .title {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #fff;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.core-info li {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+
+.right-side {
+  position: relative;
+  background-color: #fff;
+  padding: 40px;
+  margin-left: 25px;
+}
+
+.right-side li {
+  color: #66737b;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: justify;
+}
+
+.user-name {
+    padding-bottom: 20px;
+}
+
+.user-name .title {
+  font-size: 40px;
+  color: #323b4c;
+}
+
+.user-name .text {
+  font-size: 15px;
+  color: #323b4c;
+  font-weight: 400;
+  padding-bottom: 12px;
+}
+
+.project-info .title {
+  color: #323b4c;
+  font-size: 27px;
+  font-weight: 700;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #323b4c;
+  overflow: hidden;
+  margin-bottom: 20px;
 }
