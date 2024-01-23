@@ -33,7 +33,7 @@ p {
   position: relative;
   width: 100%;
   max-width: 1000px;
-  min-height: 1200px;
+  min-height: 1350px;
   margin: 50px;
   background-color: #fff;
   display: grid;
@@ -179,7 +179,7 @@ span {
 }
 
 .user-name {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .user-name .title {
@@ -202,4 +202,123 @@ span {
   border-bottom: 1px solid #323b4c;
   overflow: hidden;
   margin-bottom: 20px;
+}
+
+.project-info h3 {
+  font-size: 20px;
+  text-align: left;
+  padding-bottom: 5px;
+}
+
+.project-info p {
+  font-size: 12px;
+  text-align: left;
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+
+.sec-text .sub-title {
+  font-weight: 700;
+  font-size: 15px;
+  color: #66737b;
+  padding-bottom: 12px;
+}
+
+.sec-text li {
+  list-style-type: disc;
+  color: #66737b;
+  padding-bottom: 8px;
+}
+
+.sec-text .sub-text {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.sec-text ul {
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+
+.third-text .third-title {
+  font-weight: 700;
+  font-size: 15px;
+  color: #66737b;
+  padding-bottom: 12px;
+}
+
+.third-text li {
+  list-style-type: disc;
+  color: #66737b;
+  padding-bottom: 8px;
+}
+
+.third-text ul {
+  padding-left: 15px;
+  padding-bottom: 25px;
+}
+
+.ach-info .title {
+  color: #323b4c;
+  font-size: 27px;
+  font-weight: 700;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #323b4c;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.ach-info {
+  padding-bottom: 15px;
+}
+
+.ach-info .fourth-title {
+  font-weight: 700;
+  font-size: 15px;
+  color: #66737b;
+  padding-bottom: 12px;
+}
+
+.ach-info li {
+  list-style-type: disc;
+  color: #66737b;
+}
+
+.ach-info ul {
+  padding-left: 15px;
+}
+
+.recog-info {
+  padding-bottom: 15px;
+}
+
+.recog-info .fifth-title {
+  font-weight: 700;
+  font-size: 15px;
+  color: #66737b;
+  padding-bottom: 12px;
+}
+
+.recog-info li {
+  list-style-type: disc;
+  color: #66737b;
+}
+
+.recog-info ul {
+  padding-left: 15px;
+}
+
+.object-info .title {
+  color: #323b4c;
+  font-size: 27px;
+  font-weight: 700;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #323b4c;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.object-info span {
+    font-weight: 500;
+    color: #66737b;
 }
